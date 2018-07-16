@@ -75,6 +75,11 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,vue,ts,tsx}",
       "!src/**/*.d.ts"
-    ]
+    ],
+    "globals": {
+      "ts-jest": {
+        "disableSourceMapSupport": true
+      }
+    }
   }
 }
